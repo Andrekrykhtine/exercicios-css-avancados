@@ -1,0 +1,37 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Public Sans ,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+  
+    width: 335px; 
+    height: 431px;
+    gap: 20px;
+    /* color: #fff; */
+
+    
+}
+figure{
+    position: relative;
+
+}
+.rome img{
+    width: 100%;
+}
+
+div {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    
+  }
+
+  h3{
+    font-size: 17px;
+    font-weight: 300;
+    
+  }
+

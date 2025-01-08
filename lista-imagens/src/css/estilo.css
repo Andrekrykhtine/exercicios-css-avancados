@@ -1,0 +1,45 @@
+html{
+    font-family: Public Sans ,sans-serif;
+}    
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;/* altura total da tela, para alinhar verticalmente*/
+
+}
+.pinturas{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;/*para quebrar a pagina para baixo*/
+    justify-content: center;
+
+}       
+.pinturas .pintura{
+      position: relative;
+      /* junto com o absolute que vai na classe filha, coloca ela dento desse elemento */
+      width: 335px;
+      height: 431px;  
+      
+}
+.pinturas .pintura img{
+    width: 100%
+/* para preencher o tamanho estipulado */
+} 
+
+
+.pinturas .pintura .texto{
+    position: absolute;
+    color: #ffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura .texto .titulo{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.pinturas .pintura .texto .subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+}

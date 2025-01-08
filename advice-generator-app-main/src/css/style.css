@@ -1,0 +1,62 @@
+
+body{
+    background-color: hsl(218, 23%, 16%) ;
+    min-height: 100vh;
+    font-family: 'Manrope'; 
+    font-size: 18px;
+    font-weight: 800;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 430px;
+    height: 270px;
+
+}
+
+.conselho{
+    font-size: 10px;
+    letter-spacing: 2.3px;
+    color: hsl(150, 100%, 66%);
+    margin-top: 42px;
+    
+}
+
+.mensagem{
+    color: hsl(193, 38%, 86%);
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+
+}
+.cartao picture img{
+    width: 100%;
+   justify-content: center;
+}
+
+.cartao .botao{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(70%);
+}
+
+.cartao .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  }

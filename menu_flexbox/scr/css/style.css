@@ -1,0 +1,67 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px;
+    font-family: Public Sans, sans-serif ;
+    font-size: 20px;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.menu_principal {
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    flex-wrap: wrap;
+
+}
+
+
+.menu_principal .cadastrese {
+    padding: 10px;
+    border-radius: 10px;
+    background: #5BC241;
+    color: white
+}
+
+
+@media(max-width: 425px) {
+    .menu {
+        margin: 75px;
+
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .menu_principal {
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 100px;
+        justify-content: center;
+        gap: 50px
+    }
+
+    .cadastrese {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+}
+
+.menu_principal .blog:hover, .sobre:hover, .home:hover, .contato:hover, .carreira:hover {
+    padding: 6px 11px;
+    background: #5BC241;
+    color: white;
+}
